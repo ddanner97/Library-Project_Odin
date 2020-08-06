@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href='LibStyle.css'>
+    <title>My library</title>
+</head>
+<body>
+    <div class='header-container'>
+        <header id='main-header'>
+            <h1 id='header-title'>My Library</h1>
+        </header>
+        <div id="selector">
+            <select name="filter" id='filter' onchange="selectFilter()">
+                <option id='author-val' value='by-author'>By Author</option>
+                <option id='title-val' value='by-title'>By Title</option>
+                <option id='page-val' value='by-pages'>By Pages</option>
+                <option id='year-val' value='by-year'>By Year</option>
+            </select>
+        </div>
+        <div class='form-menu'>
+            <div class='form-wrapper'>
+                <form name="form" id='form-id'>
+                    <div class="form-group">
+                        <label for='title'>Title:</label>
+                        <input type='text' id='title' name='title' required><br>
+                    </div>
+                    <div class="form-group">
+                        <label for='author'>Author:</label>
+                        <input type='text' id='author' name='author' required><br>
+                    </div>
+                    <div class="form-group">
+                        <label for='pages'>Pages:</label>
+                        <input type='text' id='pages' name='pages' required><br>
+                    </div>
+                    <div class="form-group">
+                        <label for='year'>Year:</label>
+                        <input type='text' id='year' name='year' required><br>
+                    </div>
+                    <!-- <label for='read'>Read</label>
+                    <input type='checkbox' id='read' name='read'><br>
+                    <label for='notRead'> Have Not Read</label>
+                    <input type='checkbox' id='Notread' name='notRead'><br><br> -->
+                    <div class="form-group">
+                        <input type="submit" id="submit-id">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class='container'>
+
+        <div id="library">
+
+        </div>
+        
+        <footer id='main-footer'>
+            <p>Copyright &copy; 2020 ddanner97 Library Project-Odin</p>
+        </footer>
+
+    </div>
+
+</body>
+
+<script src="Library.js"></script>
+
+</html>
