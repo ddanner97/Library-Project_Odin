@@ -2,8 +2,7 @@
 Library Application 
 
 Description:
-This application takes in user input and stores it as 
-book objects. We have four different methods in which
+This is a simple library App I created while working through the Odin-Project. We have four different methods in which
 You can sort the objects by. Author, Title, Page count
 & year published.
 
@@ -13,9 +12,7 @@ A book has been read or not. I would like the sorting
 Functions to provide an option that would list unread 
 books first and then sort by the selected method. 
 
-I would also like to store locally so refreshing the page
-Doesn't delete user data and, when removing a book
-Create a function to remove the book object from the array. 
+I would also like to store locally and create a function to remove the book object from the array. 
 
 Installation:
 This program does not require installation just visit 
